@@ -434,8 +434,8 @@ func TestShaperIsEmpty(t *testing.T) {
 		t.Fatal("ShaperQueue should be empty")
 	}
 	sq.Push(writeRequest{
-frame: newFrame(1, cmdPSH, 1),
-})
+		frame: newFrame(1, cmdPSH, 1),
+	})
 	if sq.IsEmpty() {
 		t.Fatal("ShaperQueue should not be empty")
 	}
