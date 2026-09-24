@@ -1,6 +1,6 @@
 module github.com/sagernet/smux
 
-go 1.18
+go 1.27.1
 
 require github.com/sagernet/sing v0.7.14
 
